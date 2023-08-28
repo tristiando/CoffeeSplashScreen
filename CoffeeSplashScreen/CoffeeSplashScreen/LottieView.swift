@@ -20,16 +20,6 @@ struct LottieView: UIViewRepresentable {
         animationView.contentMode = .scaleAspectFit
         animationView.play()
         
-//        animationView.play(fromProgress: 0, //Start
-//                           toProgress: 1, //End
-//                           loopMode: LottieLoopMode.repeat(10),//Number of Times
-//                           completion: { (finished) in
-//                            if finished {
-//                                print("Animation Complete")
-//                              } else {
-//                             print("Animation cancelled")
-//                             }
-//                          })
        animationView.translatesAutoresizingMaskIntoConstraints = false
        view.addSubview(animationView)
        
